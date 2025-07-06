@@ -119,6 +119,7 @@ class _BottomNavBarAnimationState extends State<BottomNavBarAnimation>
       ],
     ),
     child: Row(
+      spacing: 50,
       mainAxisAlignment: MainAxisAlignment.center,
       children: List.generate(
         icons.length,
@@ -155,21 +156,9 @@ class _BottomNavBarAnimationState extends State<BottomNavBarAnimation>
             ),
           ),
         ),
-      ).expandSpacing(50),
+      )
     ),
   );
-}
-
-extension on List<Widget> {
-  List<Widget> expandSpacing(double spacing) {
-    if (isEmpty) return [];
-    final spaced = <Widget>[];
-    for (var i = 0; i < length; i++) {
-      spaced.add(this[i]);
-      if (i != length - 1) spaced.add(SizedBox(width: spacing));
-    }
-    return spaced;
-  }
 }
 
 Widget mainUIWidget(String title) =>
