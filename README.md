@@ -6,8 +6,9 @@ A minimal and beautiful Flutter project showcasing a custom animated bottom navi
 
 ## 📽 Preview
 
-![App Preview](./preview.gif)
-
+<p align="center">
+  <img src="./preview.gif" alt="App Preview" width="300",height="700"/>
+</p>
 ---
 
 ## 📌 Features
