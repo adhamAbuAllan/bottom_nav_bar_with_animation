@@ -6,8 +6,9 @@ A minimal and beautiful Flutter project showcasing a custom animated bottom navi
 
 ## 📽 Preview
 
-![App Preview](./preview.gif)
-
+<p align="center">
+  <img src="./preview.gif" alt="App Preview" width="300",height="700"/>
+</p>
 ---
 
 ## 📌 Features
@@ -38,8 +39,8 @@ No unnecessary complexity — plug and play!
 
 1. **Clone the Repo**  
    ```bash
-   git clone https://github.com/your_username/your_repo_name.git
-   cd your_repo_name
+   git clone https://github.com/adhamAbuAllan/bottom_nav_bar_with_animation.git
+   cd bottom_nav_bar_with_animation
    ```
 
 2. **Install Dependencies**  
@@ -83,7 +84,7 @@ This triggers the animation and changes the visible screen using `IndexedStack`.
 Add it to your `pubspec.yaml`:
 ```yaml
 dependencies:
-  flutter_animate: ^4.2.0
+  flutter_animate: ^4.5.2
 ```
 
 ---
